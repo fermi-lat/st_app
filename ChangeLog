@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Tue Mar 30 10:00:56 PST 2004
+st_app/st_app
+
+Removed Files:
+	ballistic_main.cxx 
+Log Message:
+This file moved to src; it is now compiled as part of the library.
+    *
+------------------------------------------------------------
 User: peachey  Tue Mar 30 10:00:18 PST 2004
 st_app/cmt
 
