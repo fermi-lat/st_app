@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: peachey  Thu Apr 15 08:34:29 PDT 2004
+st_app/src
+
+Modified Files:
+	StApp.cxx 
+Log Message:
+Add convenience method for most common parameter handling needs.
+    *
+------------------------------------------------------------
+User: peachey  Thu Apr 15 08:34:29 PDT 2004
 st_app/st_app
 
 Modified Files:
