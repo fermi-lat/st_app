@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: peachey  Wed Apr  7 08:29:39 PDT 2004
+st_app/st_app
+
+Added Files:
+	StApp.h StAppFactory.h 
+Log Message:
+Alternate style base class for applications. Instead of the application
+object being a singleton instantiated by the client code before main starts,
+a singleton factory is instantiated. Then the standard main could call this
+to create the application object.
+    *
+------------------------------------------------------------
 User: peachey  Wed Apr  7 08:27:20 PDT 2004
 st_app/src
 
