@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Wed Apr  7 10:54:31 PDT 2004
+st_app/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add trailing space so further concatenations will work.
+    *
+------------------------------------------------------------
 User: peachey  Wed Apr  7 10:41:19 PDT 2004
 st_app/cmt
 
