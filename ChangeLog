@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 13:27:33 PST 2004
+st_app/src
+
+Modified Files:
+	StAppGui.cxx 
+Log Message:
+Use check boxes for boolean parameters. Don't display blank/comment
+parameters.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec 30 13:26:36 PST 2004
 st_app/st_app
 
