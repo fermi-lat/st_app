@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: peachey  Thu Dec 30 13:26:36 PST 2004
+st_app/st_app
+
+Modified Files:
+	StApp.h 
+Log Message:
+Add banner method which displays tool name and version info. Improve the
+code which extracts the version info from a cvs tag.
+
+    *
+------------------------------------------------------------
+User: peachey  Thu Dec 30 13:26:36 PST 2004
 st_app/src
 
 Modified Files:
