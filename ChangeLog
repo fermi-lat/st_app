@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: peachey  Thu Apr 15 08:47:37 PDT 2004
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Migrate to StApp.
+    *
+------------------------------------------------------------
+User: peachey  Thu Apr 15 08:47:37 PDT 2004
 st_app/src
 
 Modified Files:
