@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Mon Dec  6 06:16:13 PST 2004
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Do not prompt so that unit tests can run correctly.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r5p1, operation: mov
 Package: st_app
