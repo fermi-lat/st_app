@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec  2 11:16:20 PST 2004
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Flesh out examples, particularly how to use hoops and st_stream.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec  2 11:15:57 PST 2004
 st_app/pfiles
 
