@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: peachey  Tue Mar 30 09:06:20 PST 2004
+users/peachey/st_app/st_app
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+Add typeid info to exception messages. Use a nested try block to
+guard against the fact that typeid throws. Handle objects other
+than std::exception. Use const std::exception & in the catch.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Mar 29 09:44:06 PST 2004
 users/peachey/st_app/doc
 
