@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Tue Mar 30 19:36:35 PST 2004
+st_app/src
+
+Modified Files:
+	IApp.cxx 
+Log Message:
+Pass name of application to ParPromptGroup constructor.
+    *
+------------------------------------------------------------
 User: peachey  Tue Mar 30 11:28:42 PST 2004
 st_app/st_app
 
