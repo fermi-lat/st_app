@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: peachey  Thu Apr 15 07:41:25 PDT 2004
+st_app/src
+
+Modified Files:
+	AppParGroup.cxx 
+Log Message:
+IApp.h need be included only in the implmentation file.
+    *
+------------------------------------------------------------
+User: peachey  Thu Apr 15 07:41:25 PDT 2004
 st_app/st_app
 
 Modified Files:
