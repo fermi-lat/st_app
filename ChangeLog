@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: peachey  Tue Apr 27 14:06:35 PDT 2004
+st_app/st_app
+
+Modified Files:
+	AppParGroup.h 
+Removed Files:
+	IApp.h 
+Log Message:
+Remove IApp class from code and documentation.
+    *
+------------------------------------------------------------
+User: peachey  Tue Apr 27 14:06:35 PDT 2004
 st_app/src/test
 
 Modified Files:
