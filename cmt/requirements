@@ -3,12 +3,12 @@ package st_app
 version v1r2p1
 
 author James Peachey <peachey@lheamail.gsfc.nasa.gov>
-# $Id: requirements,v 1.5 2004/04/02 22:59:43 burnett Exp $
+# $Id: requirements,v 1.6 2004/04/04 16:15:05 burnett Exp $
 
 use STpolicy *
 use hoops *
 
 apply_pattern ST_library option=-no_share
+
 private
-
-
+application st_app_main st_app_main/*.cxx
