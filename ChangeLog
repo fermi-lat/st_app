@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: peachey  Thu Apr  1 12:06:17 PST 2004
+st_app/src
+
+Modified Files:
+	IApp.cxx 
+Log Message:
+Allow default construction of IApp, in which case the name of
+the application is taken to be argv[0]
+    *
+------------------------------------------------------------
+User: peachey  Thu Apr  1 12:06:17 PST 2004
 st_app/st_app
 
 Modified Files:
