@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 07:58:28 PST 2004
+st_app/src
+
+Modified Files:
+	AppParGroup.cxx 
+Log Message:
+Add switch which enables/disables prompting, used e.g. to suppress
+command line prompts in GUI mode.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec 30 07:58:27 PST 2004
 st_app/st_app
 
