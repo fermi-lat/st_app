@@ -3,7 +3,7 @@ package st_app
 version v1r2p1
 
 author James Peachey <peachey@lheamail.gsfc.nasa.gov>
-# $Id: requirements,v 1.6 2004/04/04 16:15:05 burnett Exp $
+# $Id: requirements,v 1.8 2004/04/07 17:41:19 peachey Exp $
 
 use STpolicy *
 use hoops *
@@ -11,4 +11,6 @@ use hoops *
 apply_pattern ST_library option=-no_share
 
 private
+macro_append st_app_cppflags "" Linux "-DTRAP_FPE "
+
 application st_app_main st_app_main/*.cxx
