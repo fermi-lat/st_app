@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: peachey  Fri Aug 20 06:23:50 PDT 2004
+st_app/src
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+Add debug mode, in which no exceptions are caught at the top level.
+This is to facilitate seeing them at their source using the
+debugger.
+
+    *
+------------------------------------------------------------
 User: peachey  Tue Apr 27 14:06:35 PDT 2004
 st_app/st_app
 
