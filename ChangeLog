@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Fri Dec  3 05:45:23 PST 2004
+st_app/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add PFILES pattern.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r5p1, operation: add
 Package: st_app
