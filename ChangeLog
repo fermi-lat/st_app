@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 08:07:12 PST 2004
+st_app/src
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+Check debug status prior to calling the application run method, so that
+the run occurs outside of all try-catch blocks in debug mode.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec 30 08:04:44 PST 2004
 st_app/src
 
