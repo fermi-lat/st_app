@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 07:59:56 PST 2004
+st_app/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Use st_graph for GUIs.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec 30 07:58:28 PST 2004
 st_app/src
 
