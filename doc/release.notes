@@ -1,9 +1,11 @@
 /** \file release.notes
     \brief st_app definition
     \author James Peachey
-$Id: release.notes,v 1.8 2004/12/06 14:17:21 peachey Exp $
+$Id: release.notes,v 1.9 2005/03/07 19:10:34 peachey Exp $
 
 \verbatim
+08-mar-2005    v1r6p1 JP  Change test code to run correctly in non-interactive
+                          enviroment.
 07-mar-2005    v1r6p0 JP  Add switch/case mechanism to handle parameter logic.
                           Add standard GUI support.
 06-dec-2004    v1r5p2 JP  Disable prompts so that automatic unit tests run.
