@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Thu Apr  1 12:06:17 PST 2004
+st_app/st_app
+
+Modified Files:
+	IApp.h 
+Log Message:
+Allow default construction of IApp, in which case the name of
+the application is taken to be argv[0]
+    *
+------------------------------------------------------------
 User: peachey  Tue Mar 30 19:36:35 PST 2004
 st_app/src
 
