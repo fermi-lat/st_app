@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Wed Feb 16 10:18:50 PST 2005
+st_app/pfiles
+
+Modified Files:
+	test_st_app.par 
+Log Message:
+Add usedeltae and deltae parameters.
+
+    *
+------------------------------------------------------------
 User: peachey  Tue Feb  1 07:22:50 PST 2005
 st_app/st_app
 
