@@ -1,11 +1,12 @@
 /** \file release.notes
     \brief st_app definition
     \author James Peachey
-$Id$
+$Id: release.notes,v 1.3 2004/04/02 16:08:11 burnett Exp $
 
 \verbatim
 
-02-apr-04  v1r2  THB convert to STpolicy, add test program
+02-apr-04  v1r2p1 THB change a name
+02-apr-04  v1r2   THB convert to STpolicy, add test program
 \endverbatim
 
 */
