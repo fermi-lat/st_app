@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Mon Jan 31 07:04:33 PST 2005
+st_app/src
+
+Modified Files:
+	StAppGui.cxx 
+Log Message:
+Display buttons which create dialog boxes for file type parameters.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Jan 31 07:02:54 PST 2005
 st_app/src
 
