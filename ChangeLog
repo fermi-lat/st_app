@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 08:08:21 PST 2004
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Set version string, and reset debug mode of streams based
+on global debug mode, prior to running the application.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec 30 08:07:12 PST 2004
 st_app/src
 
