@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Tue Mar 30 11:28:42 PST 2004
+st_app/src
+
+Modified Files:
+	IApp.cxx 
+Log Message:
+Add accessors for application name, argc and argv.
+    *
+------------------------------------------------------------
 User: peachey  Tue Mar 30 10:00:56 PST 2004
 st_app/st_app
 
