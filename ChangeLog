@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Mon Apr  5 13:14:31 PDT 2004
+st_app/src
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+Call IApp's setup and tearDown methods.
+    *
+------------------------------------------------------------
 User: peachey  Mon Apr  5 13:07:28 PDT 2004
 st_app/st_app
 
