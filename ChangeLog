@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+User: peachey  Tue Nov  9 11:58:58 PST 2004
+st_app/st_app
+
+Modified Files:
+	StAppFactory.h 
+Log Message:
+Add method configureApp, which attempts to determine universally
+applicable parameters such as debug, chatter, and uses their
+values to initialize streams.
+
+Add getDebugMode method so that clients can determine whether
+debugging is enabled.
+
+Add constructor which takes a string giving the name of the app.
+This is used by configureApp.
+
+Add some comments.
+
+    *
+------------------------------------------------------------
 User: peachey  Tue Nov  9 11:54:03 PST 2004
 st_app/cmt
 
