@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Tue Nov  9 11:50:47 PST 2004
+st_app/src
+
+Modified Files:
+	AppParGroup.cxx 
+Log Message:
+Offset command line arguments, as needed for latest hoops version v0r4p4.
+
+    *
+------------------------------------------------------------
 User: peachey  Fri Aug 20 06:46:56 PDT 2004
 st_app/doc
 
