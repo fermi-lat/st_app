@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 08:01:53 PST 2004
+st_app/st_app
+
+Modified Files:
+	StApp.h 
+Log Message:
+Add name and version fields to application base class.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec 30 07:59:56 PST 2004
 st_app/cmt
 
