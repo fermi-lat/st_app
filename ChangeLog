@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Apr  2 08:08:11 PST 2004
+st_app/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+using new STpolicy; added test program
+    *
+------------------------------------------------------------
 User: peachey  Thu Apr  1 12:06:17 PST 2004
 st_app/src
 
