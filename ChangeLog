@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Fri Apr  2 14:59:43 PST 2004
+st_app/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+make a STpolicy name more appropriate
+    *
+------------------------------------------------------------
+User: burnett  Fri Apr  2 14:59:43 PST 2004
 st_app/cmt
 
 Modified Files:
