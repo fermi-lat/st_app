@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Tue Feb 22 11:37:42 PST 2005
+st_app/src
+
+Modified Files:
+	StAppGui.cxx 
+Log Message:
+Add a button controlling whether to display hidden parameters, and
+connect its clicks to make hidden parameters appear/disappear.
+
+    *
+------------------------------------------------------------
 User: peachey  Tue Feb 22 11:32:51 PST 2005
 st_app/st_app
 
