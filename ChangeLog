@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Fri Mar  4 10:08:39 PST 2005
+st_app/pfiles
+
+Modified Files:
+	test_st_app.par 
+Log Message:
+Move usedelta parameter.
+
+    *
+------------------------------------------------------------
 User: peachey  Tue Feb 22 11:37:42 PST 2005
 st_app/src
 
