@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Wed Apr  7 10:41:19 PDT 2004
+st_app/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Turn on new floating point trap feature.
+    *
+------------------------------------------------------------
 User: peachey  Wed Apr  7 10:29:24 PDT 2004
 st_app/src/st_app_main
 
