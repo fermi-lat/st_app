@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Wed Apr  6 09:09:28 PDT 2005
+st_app/src
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+Remove unused variable.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p1, operation: add
 Package: st_app
