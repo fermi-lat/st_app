@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: peachey  Tue Nov  9 12:01:08 PST 2004
+st_app/src
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+Call application factory's configureApp method, to set up streams using
+universal parameters chatter and debug. Determine whether to catch
+exceptions at runtime by calling the factory's getDebugMode method.
+
+    *
+------------------------------------------------------------
 User: peachey  Tue Nov  9 11:58:58 PST 2004
 st_app/src
 
