@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Tue Mar  8 07:57:43 PST 2005
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Change to run correctly in non-interactive environment.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p0, operation: add
 Package: st_app
