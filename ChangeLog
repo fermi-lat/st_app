@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Fri Apr  2 08:08:11 PST 2004
+st_app/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+using new STpolicy; added test program
+    *
+------------------------------------------------------------
+User: burnett  Fri Apr  2 08:08:11 PST 2004
 st_app/cmt
 
 Modified Files:
