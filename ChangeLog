@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Wed Apr  7 08:31:14 PDT 2004
+st_app/src/st_app_main
+
+Added Files:
+	st_app_main.cxx TestApp1.cxx 
+Log Message:
+New sample code showing how StApp could be used in lieu of IApp.
+    *
+------------------------------------------------------------
 User: peachey  Wed Apr  7 08:29:39 PDT 2004
 st_app/src
 
