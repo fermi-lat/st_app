@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: peachey  Wed Apr  7 08:27:20 PDT 2004
+st_app/src
+
+Added Files:
+	AppParGroup.cxx 
+Log Message:
+New hoops encapsulation. Hoops stuff in IApp can then be phased out.
+    *
+------------------------------------------------------------
+User: peachey  Wed Apr  7 08:27:20 PDT 2004
 st_app/st_app
 
 Added Files:
