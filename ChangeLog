@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 13:29:11 PST 2004
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Set name of application in TestApp1 constructor.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec 30 13:28:01 PST 2004
 st_app/src
 
