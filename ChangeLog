@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 08:04:44 PST 2004
+st_app/st_app
+
+Modified Files:
+	StAppFactory.h 
+Log Message:
+Allow preliminary handling of parameter file prior to creating the
+application, so that chatter, debug and gui mode may be recognized
+in time to initialize streams, debugging of exceptions, and running
+in GUI mode, respectively.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Dec 30 08:01:53 PST 2004
 st_app/src
 
