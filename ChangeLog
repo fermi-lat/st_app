@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r5p1, operation: mov
+Package: st_app
+User: peachey  Fri Dec  3 05:46:46 2004
+Files:
+  st_app/ChangeLog  1.68
+  st_app/cmt/requirements  1.11
+
+    *
+------------------------------------------------------------
 User: peachey  Fri Dec  3 05:45:23 PST 2004
 st_app/cmt
 
