@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: peachey  Mon Jan 31 07:00:16 PST 2005
+st_app/src
+
+Modified Files:
+	StApp.cxx StAppFactory.cxx 
+Log Message:
+Change GUI paradigm. Instead of using a second template argument
+for the StAppFactory, add a runGui() method to StApp, which launches a standard Gui
+which in turn calls StApp::run().
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Jan 31 06:56:24 PST 2005
 st_app/pfiles
 
