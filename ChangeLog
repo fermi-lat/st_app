@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Mon Jan 31 07:02:29 PST 2005
+st_app/src/st_app_main
+
+Modified Files:
+	TestApp1.cxx 
+Log Message:
+Use name of application (test_st_app) in factory, so that the test parameter file
+can be used to trigger standard behavior.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Jan 31 07:00:16 PST 2005
 st_app/st_app
 
