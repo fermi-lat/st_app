@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Tue Mar 30 09:57:59 PST 2004
+st_app/src/test
+
+Removed Files:
+	TestApp.cxx TestApp.h test_st_app.cxx 
+Log Message:
+Removing outdated test code.
+    *
+------------------------------------------------------------
 User: peachey  Tue Mar 30 09:08:51 PST 2004
 users/peachey/st_app/cmt
 
