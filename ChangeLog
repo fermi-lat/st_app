@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: peachey  Wed Feb 16 10:20:13 PST 2005
+st_app/src
+
+Modified Files:
+	AppParGroup.cxx 
+Log Message:
+Add switch-like behavior for parameters, in which some parameters
+control whether others are prompted for, or in the GUI case, displayed.
+
+    *
+------------------------------------------------------------
+User: peachey  Wed Feb 16 10:20:13 PST 2005
 st_app/st_app
 
 Modified Files:
