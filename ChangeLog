@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: peachey  Tue Feb  1 07:22:50 PST 2005
+st_app/src
+
+Modified Files:
+	AppParGroup.cxx 
+Log Message:
+Add switch/case structure to make it easier to do conditional
+prompting, that is, for some parameters to be prompted for only if other
+parameters have certain values.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Jan 31 07:04:33 PST 2005
 st_app/src
 
