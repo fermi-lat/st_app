@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Thu Dec 30 07:56:50 PST 2004
+st_app/pfiles
+
+Modified Files:
+	test_st_app.par 
+Log Message:
+Add gui parameter, to activate GUI mode.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r5p2, operation: add
 Package: st_app
