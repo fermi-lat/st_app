@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Wed Apr  7 10:10:00 PDT 2004
+st_app/src/st_app_main
+
+Modified Files:
+	st_app_main.cxx 
+Log Message:
+Remove top-level catch of non-std exceptions.
+    *
+------------------------------------------------------------
 User: peachey  Wed Apr  7 09:24:40 PDT 2004
 st_app/src
 
