@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Wed Apr  7 09:24:40 PDT 2004
+st_app/src
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+Remove top-level catch of non-std exceptions.
+    *
+------------------------------------------------------------
 User: peachey  Wed Apr  7 08:32:05 PDT 2004
 st_app/cmt
 
