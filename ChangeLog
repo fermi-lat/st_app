@@ -1,0 +1,25 @@
+------------------------------------------------------------
+User: peachey  Mon Mar 29 09:35:45 PST 2004
+users/peachey/st_app
+
+Log Message:
+Initial import of utility package st_app.
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N users/peachey/st_app/cmt/requirements
+N users/peachey/st_app/src/IApp.cxx
+N users/peachey/st_app/src/mainpage.h
+N users/peachey/st_app/src/test/TestApp.cxx
+N users/peachey/st_app/src/test/TestApp.h
+N users/peachey/st_app/src/test/test_st_app.cxx
+N users/peachey/st_app/st_app/ballistic_main.cxx
+N users/peachey/st_app/st_app/IApp.h
+N users/peachey/st_app/doc/release.notes
+
+No conflicts created by this import
+
+    *
