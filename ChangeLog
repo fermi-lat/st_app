@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Thu Apr 15 06:27:33 PDT 2004
+st_app/st_app
+
+Modified Files:
+	AppParGroup.h 
+Log Message:
+Add a virtual destructor with empty throw() spec.
+    *
+------------------------------------------------------------
 User: peachey  Wed Apr  7 10:54:31 PDT 2004
 st_app/cmt
 
