@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: peachey  Tue Apr 27 14:06:35 PDT 2004
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Remove IApp class from code and documentation.
+    *
+------------------------------------------------------------
 User: peachey  Tue Apr 27 14:06:34 PDT 2004
 st_app/src
 
