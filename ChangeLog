@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Wed Feb 16 10:59:48 PST 2005
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Control prompts and GUI logic using switch/case mechanism. Add runGui method.
+
+    *
+------------------------------------------------------------
 User: peachey  Wed Feb 16 10:20:13 PST 2005
 st_app/src
 
