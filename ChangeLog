@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Mon Jan 31 06:56:24 PST 2005
+st_app/pfiles
+
+Modified Files:
+	test_st_app.par 
+Log Message:
+Add more parameters, with which to test new GUI features.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Jan 31 06:40:34 PST 2005
 st_app/st_app
 
