@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Mon Jul 11 08:42:21 PDT 2005
+st_app/src
+
+Modified Files:
+	StApp.cxx 
+Log Message:
+Change setVersion to recognize cvs HEAD, and also to make a blank version
+display as N/A.
+
+    *
+------------------------------------------------------------
 User: peachey  Wed Apr  6 09:09:28 PDT 2005
 st_app/src
 
