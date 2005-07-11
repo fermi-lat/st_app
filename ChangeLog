@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: peachey  Mon Jul 11 08:42:21 PDT 2005
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Change setVersion to recognize cvs HEAD, and also to make a blank version
+display as N/A.
+
+    *
+------------------------------------------------------------
+User: peachey  Mon Jul 11 08:42:21 PDT 2005
 st_app/src
 
 Modified Files:
