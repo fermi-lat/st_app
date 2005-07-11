@@ -80,7 +80,7 @@ class TestApp1 : public st_app::StApp {
       correct_version = "v0";
       setVersion("$Name: v0 $");
       if (correct_version != getVersion()) {
-        m_f.err() << "After setVersion(\"$Name: v0 $\"), version is \"" << getVersion() << "\", not \"" <<
+        m_f.err() << "After setVersion(\"$Name:  $\"), version is \"" << getVersion() << "\", not \"" <<
           correct_version << "\", as expected." << std::endl;
         failed = true;
       }
