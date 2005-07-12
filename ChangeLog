@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Tue Jul 12 06:53:21 PDT 2005
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Tweak to prevent spurious expansion of Name cvs tags which cause
+test to fail when checked out with a tag.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p3, operation: add
 Package: st_app
