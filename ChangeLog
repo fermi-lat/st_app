@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Thu Jul 21 11:02:52 PDT 2005
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Fix mistake in unit test which caused it to give false
+problem report.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p4, operation: add
 Package: st_app
