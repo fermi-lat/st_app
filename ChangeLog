@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Mon Aug 22 07:08:01 PDT 2005
+st_app/src
+
+Modified Files:
+	StAppGui.cxx 
+Log Message:
+Get current states of parameters which are represented by tab folders.
+When creating tab folders, select correct tab based on parameter value.
+
+    *
+------------------------------------------------------------
 User: peachey  Thu Jul 21 11:02:52 PDT 2005
 st_app/src/test
 
