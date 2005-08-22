@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Mon Aug 22 07:24:46 PDT 2005
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Correct test so it runs no matter what cvs tag is set.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Aug 22 07:08:01 PDT 2005
 st_app/src
 
