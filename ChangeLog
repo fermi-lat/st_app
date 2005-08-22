@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Mon Aug 22 07:26:56 PDT 2005
+st_app/st_app
+
+Modified Files:
+	StGui.h 
+Log Message:
+Handle the fact that switches may be in more than one tab folder.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Aug 22 07:25:35 PDT 2005
 st_app/src
 
