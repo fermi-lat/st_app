@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: peachey  Mon Aug 22 07:25:35 PDT 2005
+st_app/src
+
+Modified Files:
+	AppParGroup.cxx 
+Log Message:
+Replace suppressPrompts method with more standard get/setPromptMode.
+
+    *
+------------------------------------------------------------
+User: peachey  Mon Aug 22 07:25:35 PDT 2005
 st_app/st_app
 
 Modified Files:
