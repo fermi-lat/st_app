@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: peachey  Tue Aug 23 12:47:08 PDT 2005
+st_app/src
+
+Modified Files:
+	StAppGui.cxx 
+Log Message:
+Add methods to synchronize multiple widgets pointing to the same parameter.
+
+    *
+------------------------------------------------------------
+User: peachey  Tue Aug 23 12:47:08 PDT 2005
 st_app/st_app
 
 Modified Files:
