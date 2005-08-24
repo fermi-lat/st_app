@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Tue Aug 23 20:14:04 PDT 2005
+st_app/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Assign to binfile parameter so that it has a file name in it.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r7, operation: add
 Package: st_app
