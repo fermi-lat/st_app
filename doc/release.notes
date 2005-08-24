@@ -1,9 +1,10 @@
 /** \file release.notes
     \brief st_app definition
     \author James Peachey
-$Id: release.notes,v 1.13 2005/07/12 13:54:14 peachey Exp $
+$Id: release.notes,v 1.14 2005/08/23 19:49:21 peachey Exp $
 
 \verbatim
+23-aug-2005    v1r7p1 JP  Fix bug which caused unit test to fail with pristine par file only.
 23-aug-2005      v1r7 JP  Allow multiple GUI widgets to affect same parameter.
 12-jul-2005    v1r6p4 JP  Tweak unit test again to make it work with/without tag.
 11-jul-2005    v1r6p3 JP  Tweak unit test, which was not working correctly when tag found.
