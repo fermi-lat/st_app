@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Mon Oct 31 11:40:49 PST 2005
+st_app/st_app
+
+Added Files:
+	StAppGui.h 
+Log Message:
+Add new class StAppGui, which derives from newly added st_graph::StGui.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Oct 31 11:40:30 PST 2005
 st_app/src
 
