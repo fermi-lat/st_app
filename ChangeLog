@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Mon Oct 31 11:35:58 PST 2005
+st_app/pfiles
+
+Modified Files:
+	test_st_app.par 
+Log Message:
+Add plot parameter.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r7p1, operation: add
 Package: st_app
