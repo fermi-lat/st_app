@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: peachey  Mon Oct 31 11:39:21 PST 2005
+st_app/src
+
+Modified Files:
+	StApp.cxx 
+Log Message:
+Add getPlotFrame method to allow clients to use GUI's plot frame in a
+GUI context, and a normal self-contained, non-GUI plot frame otherwise.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Oct 31 11:37:24 PST 2005
 st_app/st_app
 
