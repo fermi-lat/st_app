@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Fri Nov  4 08:57:10 PST 2005
+st_app/src
+
+Modified Files:
+	StAppGui.cxx 
+Log Message:
+Before running application, reset plot frame.
+
+    *
+------------------------------------------------------------
 User: peachey  Mon Oct 31 11:54:47 PST 2005
 st_app/st_app
 
