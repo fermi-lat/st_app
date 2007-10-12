@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Fri Oct 12 09:23:30 PDT 2007
+st_app/src
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+set up environment using commonUtilities
+    *
+------------------------------------------------------------
 User: golpa  Fri Oct 12 09:23:29 PDT 2007
 st_app/cmt
 
