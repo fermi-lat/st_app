@@ -3,12 +3,13 @@ package st_app
 version v1r2p1
 
 author James Peachey <peachey@lheamail.gsfc.nasa.gov>
-# $Id: requirements,v 1.11 2004/12/03 13:45:22 peachey Exp $
+# $Id: requirements,v 1.12 2004/12/30 15:59:56 peachey Exp $
 
 use STpolicy *
 use hoops *
 use st_graph *
 use st_stream *
+use facilities *
 
 apply_pattern ST_library option=-no_share
 apply_pattern ST_pfiles
