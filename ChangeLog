@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Fri Oct 12 09:23:29 PDT 2007
+st_app/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+set up environment using commonUtilities
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2, operation: add
 Package: st_app
