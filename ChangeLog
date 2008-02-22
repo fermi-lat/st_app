@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Thu Feb 21 16:52:43 PST 2008
+st_app
+
+Modified Files:
+	SConscript st_appLib.py 
+Log Message:
+added facilities as a dependency, cosmetic changes
+    *
+------------------------------------------------------------
 TAG
 Tag name: st_app-02-00-02, operation: add
 Package: st_app
