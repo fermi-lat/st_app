@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Mon Feb 25 21:45:34 PST 2008
+ScienceTools-scons/st_app
+
+Modified Files:
+	st_appLib.py SConscript 
+Log Message:
+Set lib dependencies up for when building libraries
+    *
+------------------------------------------------------------
 TAG
 Tag name: st_app-02-00-02, operation: mov
 Package: st_app
