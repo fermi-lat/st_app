@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 TAG
+Tag name: st_app-02-00-02, operation: mov
+Package: st_app
+User: glast  Thu Mar  6 10:03:07 2008
+Files:
+  st_app/st_appLib.py  1.4
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v2r0p2, operation: mov
 Package: st_app
 User: glast  Thu Mar  6 10:02:53 2008
