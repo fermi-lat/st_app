@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glast  Thu Mar  6 10:00:55 PST 2008
+ScienceTools-scons/st_app
+
+Modified Files:
+	st_appLib.py 
+Log Message:
+Added f2c as a dependency
+    *
+------------------------------------------------------------
 TAG
 Tag name: st_app-02-00-02, operation: mov
 Package: st_app
