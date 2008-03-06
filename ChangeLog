@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r0p2, operation: mov
+Package: st_app
+User: glast  Thu Mar  6 10:02:53 2008
+Files:
+  st_app/st_appLib.py  1.4
+
+    *
+------------------------------------------------------------
 User: glast  Thu Mar  6 10:00:55 PST 2008
 ScienceTools-scons/st_app
 
