@@ -1,14 +1,11 @@
 # -*- python -*-
-# $Id: SConscript,v 1.4 2008/02/26 05:45:34 glastrm Exp $
+# $Id: SConscript,v 1.5 2008/06/19 23:51:59 glastrm Exp $
 # Authors: James Peachey <peachey@lheamail.gsfc.nasa.gov>
 # Version: st_app-02-00-02
 Import('baseEnv')
 Import('listFiles')
 progEnv = baseEnv.Clone()
 libEnv = baseEnv.Clone()
-
-if baseEnv['PLATFORM'] != "win32":
-        progEnv.AppendUnique(CPPDEFINES = ['TRAP_FPE'])
 
 libEnv.Tool('st_appLib', depsOnly = 1)
 st_appLib = libEnv.StaticLibrary('st_app', listFiles(['src/*.cxx']))
