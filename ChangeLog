@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Jul 14 10:20:30 PDT 2009
+ScienceTools-scons/st_app
+
+Modified Files:
+	SConscript 
+Log Message:
+Use registerTargets
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 10:12:21 PDT 2009
 st_app/doc
 
