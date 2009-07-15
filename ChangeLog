@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r0p3, operation: mov
+Package: st_app
+User: glastrm  Wed Jul 15 11:32:18 2009
+Files:
+  st_app/SConscript  1.8
+
+    *
+------------------------------------------------------------
 User: glastrm  Wed Jul 15 11:32:12 PDT 2009
 st_app
 
