@@ -1,11 +1,12 @@
 /** \file release.notes
     \brief st_app definition
     \author James Peachey
-$Id: release.notes,v 1.18 2008/01/30 16:07:42 peachey Exp $
+$Id: release.notes,v 1.19 2009/07/01 17:12:21 heather Exp $
 
 \verbatim
 * EOH *
-30-jan-2008    v2r0p2 JP  Add SCons files.
+
+15-Jul-2009    v2r0p3 jrb Update SConscript
 23-oct-2007    v2r0p1 JP  Call facilities::commonUtilities::setupEnvironment()
                           in ballistic_main.cxx
 30-jan-2006        v2 JP  Add possibility to switch between two GUIs, both of which
