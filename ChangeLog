@@ -2,6 +2,14 @@
 TAG
 Tag name: ScienceTools-09-15-04, operation: add
 Package: st_app
+User: glastrm  Thu Jul 30 16:20:59 2009
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-15-04, operation: add
+Package: st_app
 User: glastrm  Thu Jul 30 15:49:51 2009
 Files:
   st_app/st_appLib.py  1.4
