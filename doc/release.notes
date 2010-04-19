@@ -1,11 +1,13 @@
 /** \file release.notes
     \brief st_app definition
     \author James Peachey
-$Id: release.notes,v 1.21 2010/02/22 23:13:36 jrb Exp $
+$Id: release.notes,v 1.22 2010/02/25 00:42:20 jrb Exp $
 
 \verbatim
 * EOH *
 
+ st_app-02-00-6  19-Apr-2010    hmk no changes - just tagging to force a 
+                                new ST LATEST build
  st_app-02-00-05 24-Feb-2010    jrb TRAP_FPE is for Linux only
  st_app-02-00-04 22-Feb-2010    jrb correct use of xxLib for libEnv
 15-Jul-2009    v2r0p3 jrb Update SConscript
