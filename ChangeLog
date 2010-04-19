@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 19 05:39:27 PDT 2010
+st_app
+
+Modified Files:
+	SConscript 
+Log Message:
+forcing a new ST LATEST build
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-16-01, operation: add
 Package: st_app
