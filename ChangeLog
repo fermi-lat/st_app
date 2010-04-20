@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 19 17:03:16 PDT 2010
+st_app
+
+Modified Files:
+	SConscript 
+Log Message:
+tagging to force SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: st_app-02-00-06, operation: add
 Package: st_app
