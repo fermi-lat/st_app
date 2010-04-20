@@ -1,11 +1,13 @@
 /** \file release.notes
     \brief st_app definition
     \author James Peachey
-$Id: release.notes,v 1.23 2010/04/19 12:39:27 heather Exp $
+$Id: release.notes,v 1.24 2010/04/19 12:40:18 heather Exp $
 
 \verbatim
 * EOH *
 
+ st_app-02-00-07 19-Apr-2010    hmk no changes - just tagging to force a 
+                                SCons build
  st_app-02-00-06 19-Apr-2010    hmk no changes - just tagging to force a 
                                 new ST LATEST build
  st_app-02-00-05 24-Feb-2010    jrb TRAP_FPE is for Linux only
