@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Apr 19 17:03:16 PDT 2010
+st_app/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging to force SCons build
+    *
+------------------------------------------------------------
+User: heather  Mon Apr 19 17:03:16 PDT 2010
 st_app
 
 Modified Files:
