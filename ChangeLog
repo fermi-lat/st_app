@@ -2,6 +2,14 @@
 TAG
 Tag name: ScienceTools-09-17-00, operation: add
 Package: st_app
+User: glastrm  Thu Jun 17 18:43:18 2010
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-17-00, operation: add
+Package: st_app
 User: glastrm  Mon Jun 14 21:44:22 2010
 Files:
   st_app/.cvsignore  1.1
