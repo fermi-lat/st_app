@@ -1,5 +1,33 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceTools-09-31-00, operation: add
+Package: st_app
+User: jchiang  Tue Dec 18 16:52:57 2012
+Files:
+  st_app/.cvsignore  1.1
+  st_app/st_appLib.py  1.4
+  st_app/ChangeLog  1.238
+  st_app/SConscript  1.14
+  st_app/cmt/requirements  1.18
+  st_app/doc/release.notes  1.25
+  st_app/pfiles/test_st_app.par  1.7
+  st_app/src/StAppFactory.cxx  1.4
+  st_app/src/mainpage.h  1.5
+  st_app/src/StApp.cxx  1.10
+  st_app/src/StAppGui.cxx  1.11
+  st_app/src/ballistic_main.cxx  1.14
+  st_app/src/AppParGroup.cxx  1.8
+  st_app/src/st_app_main/TestApp1.cxx  1.2
+  st_app/src/test/test_main.cxx  1.19
+  st_app/st_app/AppParGroup.h  1.8
+  st_app/st_app/StGui.h  1.6
+  st_app/st_app/StAppFactory.h  1.4
+  st_app/st_app/StAppGui.h  1.3
+  st_app/st_app/StApp.h  1.8
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: ScienceTools-09-30-01, operation: add
 Package: st_app
 User: glastrm  Tue Sep 11 11:09:19 2012
