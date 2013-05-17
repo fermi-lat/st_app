@@ -1,9 +1,9 @@
 package st_app
 
-version v2r0p7
+version v2r0p8
 
 author James Peachey <peachey@lheamail.gsfc.nasa.gov>
-# $Id: requirements,v 1.17 2010/04/19 12:39:27 heather Exp $
+# $Id: requirements,v 1.18 2010/04/20 00:03:16 heather Exp $
 
 use STpolicy *
 use hoops *
