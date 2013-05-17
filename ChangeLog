@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: tstephen  Fri May 17 12:22:27 PDT 2013
+ScienceTools-scons/st_app/src
+
+Modified Files:
+	ballistic_main.cxx 
+Log Message:
+Added in code to call function to overide the default handling of assertion
+dialogs to prevent test from hanging up the build system and report assertion
+error into the standard output of the test.
+
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-31-02, operation: add
 Package: st_app
