@@ -90,8 +90,9 @@ target_include_directories(st_app
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
 )
 target_link_libraries(st_app
-  PRIVATE
+  PUBLIC
     ST::hoops
+  PRIVATE
     ST::stream
     ST::graph
     ST::facilities
