@@ -1,8 +1,8 @@
-get_filename_component(st_graph_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+get_filename_component(st_app_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
 include(CMakeFindDependencyMacro)
 
-if(NOT TARGET ST::graph)
-    include("${st_graph_CMAKE_DIR}/st_graphTargets.cmake")
+if(NOT TARGET ST::app)
+  include("${st_app_CMAKE_DIR}/st_appTargets.cmake")
 endif()
 
-set(st_graph_LIBRARIES ST::graph)
+set(st_app_LIBRARIES ST::app)
