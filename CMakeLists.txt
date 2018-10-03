@@ -63,8 +63,6 @@ if(NOT hoops_POPULATED)
   add_subdirectory(${hoops_SOURCE_DIR} ${hoops_BINARY_DIR})
 endif()
 
-find_package(Python2 COMPONENTS Development)
-
 ###############################################################################
 
 
