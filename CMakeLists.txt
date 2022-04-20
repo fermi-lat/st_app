@@ -26,3 +26,18 @@ target_link_libraries(
 
 # add_executable(test_st_app src/test/test.cxx)
 # target_link_libraries(test_st_app PRIVATE st_app PkgConfig::cppunit)
+
+###############################################################
+# Installation
+###############################################################
+install(DIRECTORY st_app DESTINATION ${FERMI_INSTALL_INCLUDEDIR})
+install(DIRECTORY pfiles/ DESTINATION ${FERMI_INSTALL_PFILESDIR})
+
+install(
+  TARGETS st_app
+  # EXPORT fermiTargets
+  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+  LIBRARY DESTINATION lib
+  ARCHIVE DESTINATION lib
+  INCLUDES DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+)
