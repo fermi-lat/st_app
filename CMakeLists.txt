@@ -21,11 +21,15 @@ target_link_libraries(
   facilities
   PkgConfig::f2c
 )
-
 # target_compile_definitions(st_facilities PUBLIC TRAP_FPE)
 
-# add_executable(test_st_app src/test/test.cxx)
-# target_link_libraries(test_st_app PRIVATE st_app PkgConfig::cppunit)
+###### EXECUTABLES ######
+add_executable(st_app_main src/st_app_main/TestApp1.cxx)
+target_link_libraries(st_app_main PRIVATE st_app)
+
+###### TESTS ######
+add_executable(test_st_app src/test/test_main.cxx)
+target_link_libraries(test_st_app PRIVATE st_app st_graph PkgConfig::cppunit)
 
 ###############################################################
 # Installation
@@ -34,8 +38,8 @@ install(DIRECTORY st_app DESTINATION ${FERMI_INSTALL_INCLUDEDIR})
 install(DIRECTORY pfiles/ DESTINATION ${FERMI_INSTALL_PFILESDIR})
 
 install(
-  TARGETS st_app
-  # EXPORT fermiTargets
+  TARGETS st_app st_app_main test_st_app
+  EXPORT fermiTargets
   RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
   LIBRARY DESTINATION lib
   ARCHIVE DESTINATION lib
