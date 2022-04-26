@@ -19,7 +19,6 @@ target_link_libraries(
   st_graph
   st_stream
   facilities
-  PkgConfig::f2c
 )
 # target_compile_definitions(st_facilities PUBLIC TRAP_FPE)
 
