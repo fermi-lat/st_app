@@ -20,7 +20,10 @@ target_link_libraries(
   st_stream
   facilities
 )
-# target_compile_definitions(st_facilities PUBLIC TRAP_FPE)
+
+if(NOT APPLE)
+  target_compile_definitions(st_app PRIVATE TRAP_FPE)
+endif()
 
 ###### EXECUTABLES ######
 add_executable(st_app_main src/st_app_main/TestApp1.cxx)
