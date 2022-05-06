@@ -1,5 +1,5 @@
 add_library(
-  st_app SHARED
+  st_app STATIC
   src/AppParGroup.cxx
   src/ballistic_main.cxx
   src/StApp.cxx
