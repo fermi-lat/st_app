@@ -1,5 +1,5 @@
 add_library(
-  st_app STATIC
+  st_app 
   src/AppParGroup.cxx
   src/ballistic_main.cxx
   src/StApp.cxx
