@@ -31,7 +31,7 @@ target_link_libraries(st_app_main PRIVATE st_app)
 
 ###### TESTS ######
 add_executable(test_st_app src/test/test_main.cxx)
-target_link_libraries(test_st_app PRIVATE st_app st_graph PkgConfig::cppunit)
+target_link_libraries(test_st_app PRIVATE st_app st_graph CppUnit::CppUnit)
 
 ###############################################################
 # Installation
