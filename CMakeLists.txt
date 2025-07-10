@@ -26,6 +26,8 @@ if(NOT APPLE)
 endif()
 
 ###### EXECUTABLES ######
+set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
+
 add_executable(st_app_main src/st_app_main/TestApp1.cxx)
 target_link_libraries(st_app_main PRIVATE st_app)
 
