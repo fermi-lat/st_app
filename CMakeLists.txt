@@ -15,6 +15,7 @@ target_include_directories(
 target_link_libraries(
   st_app PUBLIC
   hoops
+  general_util
   PRIVATE
   st_graph
   st_stream

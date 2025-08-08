@@ -14,6 +14,7 @@
 #include "st_graph/Engine.h"
 
 #include "st_stream/StreamFormatter.h"
+#include "general_util/generic_utils.h"
 
 namespace st_app {
 
@@ -78,9 +79,11 @@ namespace st_app {
     return *m_par_group;
   }
 
+  // Update banner string to output the app name PROJECT_DESCRIPTION PRODUCT_VERSION (from ScienceTools/CMakeLists.txt Project tuple)
   void StApp::banner() const {
     st_stream::StreamFormatter sf("StApp", "banner", 2);
-    sf.info(1) << "This is " << m_name << " version " << m_version << std::endl;
+    std::string creator_version =  GenericUtils::creator_banner(m_name); 
+    sf.info(1) << "This is " << creator_version << std::endl;
   }
 
   const std::string & StApp::getName() const { return m_name; }
