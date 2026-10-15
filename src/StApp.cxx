@@ -17,6 +17,7 @@
 
 #ifndef ST_APP_RELEASE
 #define ST_APP_RELEASE "HEAD"
+#endif
 
 namespace st_app {
 
