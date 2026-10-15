@@ -21,6 +21,8 @@ target_link_libraries(
   facilities
 )
 
+target_compile_definitions(st_app PRIVATE ST_APP_RELEASE="Fermitools-${FERMITOOLS_RELEASE}")
+
 if(NOT APPLE)
   target_compile_definitions(st_app PRIVATE TRAP_FPE)
 endif()
@@ -33,6 +35,7 @@ target_link_libraries(st_app_main PRIVATE st_app)
 
 ###### TESTS ######
 add_executable(test_st_app src/test/test_main.cxx)
+target_compile_definitions(test_st_app PRIVATE ST_APP_RELEASE="Fermitools-${FERMITOOLS_RELEASE}")
 target_link_libraries(test_st_app PRIVATE st_app st_graph CppUnit::CppUnit)
 
 ###############################################################
