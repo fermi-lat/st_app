@@ -78,7 +78,7 @@ class TestApp1 : public st_app::StApp {
       }
 
       // Test resetting version to a blank cvs tagged version number (HEAD).
-      correct_version = "HEAD";
+      correct_version = ST_APP_RELEASE;
       // Construct version string in stages to prevent cvs expanding this string literal as well.
       std::string version = "$Name: ";
       version += " $";
@@ -114,7 +114,7 @@ class TestApp1 : public st_app::StApp {
       if (9 == s_cvs_tag.size()) {
         // Version part of tag in $Name expansion is blank -> this is the head version.
         correct_tag = "$Name: ";
-        correct_tag += "HEAD $" ;
+        correct_tag += std::string(ST_APP_RELEASE) + " $" ;
       }
 
       setVersion(s_cvs_tag);

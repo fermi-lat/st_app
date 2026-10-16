@@ -15,6 +15,10 @@
 
 #include "st_stream/StreamFormatter.h"
 
+#ifndef ST_APP_RELEASE
+#define ST_APP_RELEASE "HEAD"
+#endif
+
 namespace st_app {
 
   // Static member definitions:
@@ -99,7 +103,7 @@ namespace st_app {
     // If cvs was used to assign the version automatically, chop out the prefix and suffix ($) it uses.
     if (std::string::npos != start) {
       // Change default version to reflect the fact that a CVS prefix was found.
-      default_version = "HEAD";
+      default_version = ST_APP_RELEASE;
 
       start += cvs_prefix.size();
 
