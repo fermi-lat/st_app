@@ -20,7 +20,7 @@ namespace st_app {
   IStAppFactory * IStAppFactory::s_factory = 0;
 
   // Singleton access.
-  IStAppFactory & IStAppFactory::instance() {
+  auto IStAppFactory::instance() -> IStAppFactory & {
     if (0 == s_factory) throw std::logic_error("IStAppFactory::instance() cannot find a factory");
     return *s_factory;
   }
@@ -70,18 +70,18 @@ namespace st_app {
     }
   }
 
-  int IStAppFactory::getMaximumChatter() const { return st_stream::GetMaximumChatter(); }
+  auto IStAppFactory::getMaximumChatter() const -> int { return st_stream::GetMaximumChatter(); }
 
   void IStAppFactory::setMaximumChatter(int maximum_chatter) { st_stream::SetMaximumChatter(maximum_chatter); }
 
-  bool IStAppFactory::getDebugMode() const { return st_stream::GetDebugMode(); }
+  auto IStAppFactory::getDebugMode() const -> bool { return st_stream::GetDebugMode(); }
 
   void IStAppFactory::setDebugMode(bool debug_mode) { st_stream::SetDebugMode(debug_mode); }
 
-  bool IStAppFactory::getGuiMode() const { return m_gui_mode; }
+  auto IStAppFactory::getGuiMode() const -> bool { return m_gui_mode; }
 
   void IStAppFactory::setGuiMode(bool gui_mode) { m_gui_mode = gui_mode; }
 
-  const std::string & IStAppFactory::getAppName() const { return m_app_name; }
+  auto IStAppFactory::getAppName() const -> const std::string & { return m_app_name; }
 
 }

@@ -28,10 +28,10 @@ namespace st_app {
   }
 
   // Accessor for number of command line arguments.
-  int StApp::getArgc() { return s_argc; }
+  auto StApp::getArgc() -> int { return s_argc; }
 
   // Accessor for command line arguments.
-  char ** StApp::getArgv() { return s_argv; }
+  auto StApp::getArgv() -> char ** { return s_argv; }
 
   // Construct application object:
   StApp::StApp(): m_name("Unknown application"), m_version(), m_par_group(0), m_gui(0), m_main_frame(0), m_plot_frame(0) {
@@ -67,12 +67,12 @@ namespace st_app {
   }
 
   // Return an object which provides the most typical kinds of parameter access.
-  AppParGroup & StApp::getParGroup() {
+  auto StApp::getParGroup() -> AppParGroup & {
     return getParGroup(m_name);
   }
 
   // Return an object which provides the most typical kinds of parameter access.
-  AppParGroup & StApp::getParGroup(const std::string & app_name) {
+  auto StApp::getParGroup(const std::string & app_name) -> AppParGroup & {
     // Create if necessary:
     if (0 == m_par_group) m_par_group = new AppParGroup(app_name);
     return *m_par_group;
@@ -83,9 +83,9 @@ namespace st_app {
     sf.info(1) << "This is " << m_name << " version " << m_version << std::endl;
   }
 
-  const std::string & StApp::getName() const { return m_name; }
+  auto StApp::getName() const -> const std::string & { return m_name; }
 
-  const std::string & StApp::getVersion() const { return m_version; }
+  auto StApp::getVersion() const -> const std::string & { return m_version; }
 
   void StApp::setName(const std::string & name) { m_name = name; }
 
@@ -129,7 +129,7 @@ namespace st_app {
     if (vers_itor == m_version.end()) m_version = default_version;
   }
 
-  st_graph::IFrame * StApp::getPlotFrame(const std::string & title) {
+  auto StApp::getPlotFrame(const std::string & title) -> st_graph::IFrame * {
     st_graph::IFrame * plot_frame(0);
     st_graph::StGui * st_gui = dynamic_cast<st_graph::StGui *>(m_gui);
 

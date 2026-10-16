@@ -20,7 +20,7 @@
 #include "facilities/AssertDialogOverride.h"
 #endif
 
-int main(int argc, char ** argv) {
+auto main(int argc, char ** argv) -> int {
 #ifdef _DEBUG
    _CrtSetReportHook( AssertDialogOverride );
    _CrtSetReportMode(_CRT_WARN, _CRTDBG_MODE_FILE);

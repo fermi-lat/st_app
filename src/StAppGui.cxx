@@ -199,13 +199,13 @@ namespace st_app {
 
   ParWidget::operator st_graph::IFrame * () { return getFrame(); }
 
-  st_graph::IFrame * ParWidget::getFrame () { return m_frame; }
+  auto ParWidget::getFrame () -> st_graph::IFrame * { return m_frame; }
 
-  st_graph::IFrame * ParWidget::getLabel() { return m_label; }
+  auto ParWidget::getLabel() -> st_graph::IFrame * { return m_label; }
 
-  const std::string & ParWidget::getName() const { return m_par->Name(); }
+  auto ParWidget::getName() const -> const std::string & { return m_par->Name(); }
 
-  std::string ParWidget::getValue() const {
+  auto ParWidget::getValue() const -> std::string {
     if (m_bool) {
       if (m_value_string == "down") return "true";
       return "false";
@@ -230,7 +230,7 @@ namespace st_app {
     }
   }
 
-  long ParWidget::entryWidth(hoops::IPar * par) const {
+  auto ParWidget::entryWidth(hoops::IPar * par) const -> long {
     // The first time this is called, create a temporary gui with text entries corresponding to the sizes of parameters.
     static std::map<std::string, long> s_width;
     if (s_width.empty()) {
@@ -257,7 +257,7 @@ namespace st_app {
     return width;
   }
 
-  hoops::IParGroup & operator <<(hoops::IParGroup & group, const ParWidget & par) {
+  auto operator <<(hoops::IParGroup & group, const ParWidget & par) -> hoops::IParGroup & {
     group[par.getName()] = par.getValue();
     return group;
   }
@@ -474,7 +474,7 @@ namespace st_app {
     pars.setPromptMode(false);
   }
 
-  ParWidget * StEventReceiver::createParWidget(hoops::IPar * par, st_graph::IFrame * parent) {
+  auto StEventReceiver::createParWidget(hoops::IPar * par, st_graph::IFrame * parent) -> ParWidget * {
     return new ParWidget(m_engine, parent, par, this);
   }
 
@@ -485,7 +485,7 @@ namespace st_app {
     }
   }
 
-  bool StEventReceiver::parseRange(const hoops::IPar * par, std::list<std::string> & range) {
+  auto StEventReceiver::parseRange(const hoops::IPar * par, std::list<std::string> & range) -> bool {
     range.clear();
 
     const std::string & par_min(par->Min());

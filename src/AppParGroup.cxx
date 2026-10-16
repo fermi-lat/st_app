@@ -20,10 +20,10 @@ namespace st_app {
     m_prompt_mode(group.m_prompt_mode) {}
 
   // Assignments, using hoops to do the real work.
-  hoops::IParGroup & AppParGroup::operator =(const AppParGroup & group)
+  auto AppParGroup::operator =(const AppParGroup & group) -> hoops::IParGroup &
     { hoops::ParPromptGroup::operator =(group); return *this; }
    
-  hoops::IParGroup & AppParGroup::operator =(const hoops::IParGroup & group)
+  auto AppParGroup::operator =(const hoops::IParGroup & group) -> hoops::IParGroup &
     { hoops::ParPromptGroup::operator =(group); return *this; }
 
   void AppParGroup::Prompt() {
@@ -70,11 +70,11 @@ namespace st_app {
     if (m_prompt_mode) hoops::ParPromptGroup::Prompt(par_name);
   }
 
-  bool AppParGroup::getPromptMode() const { return m_prompt_mode; }
+  auto AppParGroup::getPromptMode() const -> bool { return m_prompt_mode; }
 
   void AppParGroup::setPromptMode(bool prompt_mode) { m_prompt_mode = prompt_mode; }
 
-  bool AppParGroup::isSwitch(const std::string & par_name) const {
+  auto AppParGroup::isSwitch(const std::string & par_name) const -> bool {
     return (m_switch.end() != m_switch.find(par_name));
   }
 
