@@ -311,6 +311,16 @@ matplotlib. If they are missing, the first widget creation throws
 
 None in this package. `pyLikelihood` wraps `StApp`/`AppParGroup`.
 
+### Environment variables
+
+None read directly (no `getenv`). The shared `main`
+(`ballistic_main.cxx`) calls `facilities::commonUtilities::setupEnvironment()`,
+which fills in the `<PKG>XMLPATH`/`<PKG>DATAPATH` variables (see the
+facilities doc), and parameter handling reads `PFILES`, `HEADASNOQUERY`
+and `APEDEBUG` through ape. Variables set by conda activation are
+described under "Runtime environment" in ScienceTools'
+`docs/architecture/README.md`.
+
 ### File formats
 
 Par files only, through hoops and ape. st_app writes the user's par file
@@ -344,6 +354,11 @@ when a tool calls `Save()`.
   - Failure is a `std::runtime_error("Test failed")`, which gives exit
     status 1.
   - Prompting is commented out so that it can run unattended.
+  - The default run of the project harness `recipe/tests/ST-unit-test`
+    (see "Testing" in ScienceTools' `docs/architecture/README.md`) runs
+    `test_st_app` with no arguments (the harness puts `syspfiles` on
+    `PFILES`) and checks only the exit status. No output is compared and
+    no st_app reference data exists anywhere. `st_app_main` is not run.
 - **Legacy:** `SConscript` and `st_appLib.py` belong to the old SCons
   build.
 
