@@ -16,7 +16,6 @@ target_link_libraries(
   st_app PUBLIC
   hoops
   PRIVATE
-  st_graph
   st_stream
   facilities
 )
@@ -31,7 +30,7 @@ endif()
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 
 add_executable(st_app_main src/st_app_main/TestApp1.cxx)
-target_link_libraries(st_app_main PRIVATE st_app)
+target_link_libraries(st_app_main PRIVATE st_app st_graph)
 
 ###### TESTS ######
 add_executable(test_st_app src/test/test_main.cxx)
