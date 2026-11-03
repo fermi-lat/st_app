@@ -16,6 +16,7 @@ target_link_libraries(
   st_app PUBLIC
   hoops
   PRIVATE
+  st_graph
   st_stream
   facilities
 )
@@ -30,12 +31,12 @@ endif()
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 
 add_executable(st_app_main src/st_app_main/TestApp1.cxx)
-target_link_libraries(st_app_main PRIVATE st_app st_graph)
+target_link_libraries(st_app_main PRIVATE st_app)
 
 ###### TESTS ######
 add_executable(test_st_app src/test/test_main.cxx)
 target_compile_definitions(test_st_app PRIVATE ST_APP_RELEASE="Fermitools-${FERMITOOLS_RELEASE}")
-target_link_libraries(test_st_app PRIVATE st_app st_graph CppUnit::CppUnit)
+target_link_libraries(test_st_app PRIVATE st_app CppUnit::CppUnit)
 
 ###############################################################
 # Installation
