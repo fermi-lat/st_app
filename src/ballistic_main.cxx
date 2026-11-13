@@ -29,7 +29,7 @@ auto main(int argc, char ** argv) -> int {
 #endif
 
   int status = 0;
-  st_app::StApp * this_st_app = 0;
+  st_app::StApp * this_st_app = nullptr;
 
   bool debug = false;
   bool gui_mode = false;
@@ -69,7 +69,7 @@ auto main(int argc, char ** argv) -> int {
 
       // Check debug status again in case the application constructor changed it, and defer running if
       // debug mode is currently selected.
-      if (0 != this_st_app && !debug) {
+      if (nullptr != this_st_app && !debug) {
         // Display startup banner.
         this_st_app->banner();
 
@@ -98,14 +98,14 @@ auto main(int argc, char ** argv) -> int {
     // if it was not already created,
     // so that the debugger is more useful for finding exceptions at their source.
     // Use the singleton StAppFactory to create the application:
-    if (0 == this_st_app) {
+    if (nullptr == this_st_app) {
       this_st_app = st_app::IStAppFactory::instance().createApp();
 
       // Set application name.
       this_st_app->setName(st_app::IStAppFactory::instance().getAppName());
     }
 
-    if (0 != this_st_app) {
+    if (nullptr != this_st_app) {
       // Display startup banner.
       this_st_app->banner();
 

@@ -17,24 +17,24 @@
 namespace st_app {
 
   // Static member definitions:
-  IStAppFactory * IStAppFactory::s_factory = 0;
+  IStAppFactory * IStAppFactory::s_factory = nullptr;
 
   // Singleton access.
   auto IStAppFactory::instance() -> IStAppFactory & {
-    if (0 == s_factory) throw std::logic_error("IStAppFactory::instance() cannot find a factory");
+    if (nullptr == s_factory) throw std::logic_error("IStAppFactory::instance() cannot find a factory");
     return *s_factory;
   }
 
   // Construct IStAppFactory, setting singleton if it's not already defined.
-  IStAppFactory::IStAppFactory(): m_app_name(), m_gui_mode(false) { if (0 == s_factory) s_factory = this; }
+  IStAppFactory::IStAppFactory(): m_app_name(), m_gui_mode(false) { if (nullptr == s_factory) s_factory = this; }
 
   // Construct IStAppFactory, setting singleton if it's not already defined.
   IStAppFactory::IStAppFactory(const std::string & app_name): m_app_name(app_name), m_gui_mode(false) {
-    if (0 == s_factory) s_factory = this;
+    if (nullptr == s_factory) s_factory = this;
   }
 
   // Destruct IStAppFactory, unsetting singleton if this is it.
-  IStAppFactory::~IStAppFactory() throw() { if (this == s_factory) s_factory = 0; }
+  IStAppFactory::~IStAppFactory() throw() { if (this == s_factory) s_factory = nullptr; }
 
   void IStAppFactory::configureApp() {
     // Initialize standard st_stream objects.

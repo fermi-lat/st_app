@@ -43,7 +43,7 @@ namespace st_app {
           // Find out if this parameter depends on any switch/cases.
           CaseList case_cont;
           getCase(par_name, case_cont);
-          for (CaseList::iterator case_itor = case_cont.begin(); case_itor != case_cont.end(); ++case_itor) {
+          for (auto case_itor = case_cont.begin(); case_itor != case_cont.end(); ++case_itor) {
             // Get the switched parameter.
             const std::string & switch_name = case_itor->first;
             hoops::IPar & switch_par = Find(switch_name);
@@ -81,7 +81,7 @@ namespace st_app {
   void AppParGroup::getCase(const std::string & par_name, CaseList & case_cont) const {
     case_cont.clear();
     std::pair<Case::const_iterator, Case::const_iterator> range = m_case.equal_range(par_name);
-    for (Case::const_iterator itor = range.first; itor != range.second; ++itor) {
+    for (auto itor = range.first; itor != range.second; ++itor) {
       case_cont.push_back(ParValuePair(itor->second.first, itor->second.second));
     }
   }
@@ -91,7 +91,7 @@ namespace st_app {
     Find(switch_name);
 
     // See if this switch was already added.
-    Switch::iterator itor = m_switch.find(switch_name);
+    auto itor = m_switch.find(switch_name);
 
     // Insert a new (empty) case container for this switch.
     if (m_switch.end() == itor) m_switch.insert(itor, switch_name);
@@ -99,7 +99,7 @@ namespace st_app {
 
   void AppParGroup::setCase(const std::string & switch_name, const std::string & case_name, const std::string & par_name) {
     // See if this switch was already added.
-    Switch::iterator itor = m_switch.find(switch_name);
+    auto itor = m_switch.find(switch_name);
 
     // If case not present, throw an exception.
     if (m_switch.end() == itor)
